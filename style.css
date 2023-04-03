@@ -75,3 +75,16 @@ body {
 .content-head {
     grid-column: 1/4;
 }
+
+.main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.trending {
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
